@@ -50,7 +50,7 @@ public class Presentacion {
         return object;
     }
     public void printArea(Modelo object) {
-        System.out.println("The area for your " + object.shapeType + " : " + object.area);
+        System.out.println("Area of the " + object.shapeType + " : " + object.area);
     }
     
 }
