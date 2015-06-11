@@ -10,6 +10,20 @@ package superficies;
  *
  * @author rzarzafernandez
  */
-public class Controlador {
-    
-}
+public static void main(String[] args) {
+        
+                
+        if (model.shapeType.equals("square")) {
+            areaSquare();
+        }
+        if (model.shapeType.equals("rectangle")) {
+            areaRectangle();
+        }
+        if (model.shapeType.equals("triangle")) {
+            areaTriangle();
+        }
+        if (model.shapeType.equals("circle")) {
+            areaCircle();
+        } 
+
+    }
